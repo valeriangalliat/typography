@@ -115,6 +115,14 @@ description is not capitalized and does not end with a period):
 command \- short description of the repository
 ```
 
+### Badges
+
+It's common practise in open source projects to add badges next to the
+project title, to show the version, code coverage, build status, etc.
+
+The badges should be added after the title, on the same line. If there
+are many badges, put them below the title.
+
 Monospace
 ---------
 
