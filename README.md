@@ -46,6 +46,11 @@ end with a question or exclamation mark.
 
   [Rules about monospaced font](#monospace) applies.
 
+* > ### Italic/bold
+
+  When the  first "word" of a title is a "slash expression", capitalize
+  only the first word if needed.
+
 Slash
 -----
 
@@ -62,6 +67,22 @@ slash.
 * > This is my email address / JID.
 
 See [rule](http://en.wikipedia.org/wiki/Slash_(punctuation)#In_English_text)
+on Wikipedia.
+
+Italic/bold
+-----------
+
+Use italic when you want to emphasis text in the "reading flow" (the
+expressions are emphased when reading, but not when globally scanning
+the document).
+
+Use bold when you want some words to stand out from the rest of the
+text, typically when the reader might search for these words without
+reading everything. Use bold with parsimony since it may distract the
+reader from what's he's currently reading, by jumping quickly to bold
+words.
+
+See [more](http://en.wikipedia.org/wiki/Emphasis_(typography)#Font_styles_and_variants)
 on Wikipedia.
 
 Repository readme
@@ -184,10 +205,10 @@ Man pages
 ---------
 
 See [man-pages(7)](http://man7.org/linux/man-pages/man7/man-pages.7.html)
-for conventions on **how** to write man pages (especially the `STYLE
+for conventions on *how* to write man pages (especially the `STYLE
 GUIDE` section).
 
-When **referring** to man pages from a regular document (like this
+When *referring* to man pages from a regular document (like this
 readme), include the man page section number in parentheses after the
 man page name, without space. If it's a link, no special formatting is
 required, but otherwise, write the man page name in bold.
