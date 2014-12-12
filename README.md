@@ -42,6 +42,10 @@ end with a question or exclamation mark.
   Here, the language/nationality is capitalized in the title, according to
   English typography rules like for a paragraph.
 
+* > ### `ls` on steroids
+
+  [Rules about monospaced font](#monospace) applies.
+
 Slash
 -----
 
