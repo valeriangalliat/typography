@@ -136,6 +136,7 @@ Common brand typos
 * GitHub <del>Github</del> <del>github</del>,
 * JavaScript <del>Javascript</del> <del>javascript</del>,
 * Sass <del>SASS</del>,
+* YAML <del>YML</del> <del>Yaml</del>,
 * Node.js <del>node.js</del> <del>nodejs</del> (can be written Node when
   appropriate),
 * npm <del>NPM</del>,
