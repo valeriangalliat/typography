@@ -125,7 +125,7 @@ elemnts:
 * Unix command,
 * filename,
 * username,
-* anything related to code (like environment variables).
+* anything related to code (like an environment variable).
 
 For example:
 
