@@ -178,6 +178,18 @@ symbol", like the `$` in shell.
 
 > The `PATH` environment variable.
 
+Notes, warnings
+---------------
+
+Notes, warnings or other "annotations" are written in bold, followed by
+a colon. The following sentence is not capitalized (the beginning of the
+sentence is the "note", "warning" or other keyword). Include the colon
+in the bold part.
+
+* > **Note:** this is a note.
+
+* > **Warning:** don't forget to do this.
+
 Common brand typos
 ------------------
 
