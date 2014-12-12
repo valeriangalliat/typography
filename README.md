@@ -22,6 +22,10 @@ end with a question or exclamation mark.
 
   Basic case, nothing special.
 
+* > How to contribute?
+
+  Question as title.
+
 * > ### moreutils extensions
   >
   > moreutils is a collection of Unix commands.
