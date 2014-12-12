@@ -35,7 +35,7 @@ end with a question or exclamation mark.
 
 * > ### Publishing on GitHub
 
-  Naturally, we respect the case of GitHub name.
+  Naturally, we [respect the case](#common-brand-typos) of GitHub name.
 
 * > ### Additions for French developers
 
