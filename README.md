@@ -96,7 +96,7 @@ elemnts:
 * Unix command,
 * filename,
 * username,
-* code.
+* anything related to code (like environment variables).
 
 For example:
 
@@ -118,6 +118,13 @@ following rules (at least for C-like languages):
   `puts("Hello, world!")`, or `1.0 + sqrt(4.0)`.
 * If you write one or multiple instructions, include the semicolons: `if
   (foo) return bar;`, `foo(); bar();`.
+
+### Environment variables
+
+When referring to an environment variable, don't include any "variable
+symbol", like the `$` in shell.
+
+> The `PATH` environment variable.
 
 Common brand typos
 ------------------
