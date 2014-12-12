@@ -138,6 +138,29 @@ For example:
 * > Edit `/etc/ssh/ssh_config` and add `someuser` in the `AllowUsers`
   > directive.
 
+### Commands
+
+Commands are a particular case because a lot of command-line programs
+are named after the command they feature. Though it's not always the
+case.
+
+In the case the command and the software "brand" name is the same, you
+can ommit the monospaced font when not espacially referring to the
+command.
+
+* > This program depends on curl and libnotify (for `notify-send`).
+
+  Here, curl is both the "brand" name and command, so we can write it
+  as-is. Though, libnotify is the software name, but `notify-send` is
+  only a command of libnotify.
+
+* > `pee` and `sponge` from moreutils are awesome commands!
+
+Though, if the program is named after the command, but it's a really
+short or ambigouos command (ifi t's also an English word for example),
+it's preferred to refer explicitely to the command, thus using a
+monospaced font.
+
 ### Inline code
 
 When writing inline code (code in the middle of a sentence), respect the
