@@ -156,8 +156,8 @@ command.
 
 * > `pee` and `sponge` from moreutils are awesome commands!
 
-Though, if the program is named after the command, but it's a really
-short or ambigouos command (ifi t's also an English word for example),
+However, if the program is named after the command, but it's a really
+short or ambiguous command (if it's also an English word for example),
 it's preferred to refer explicitely to the command, thus using a
 monospaced font.
 
