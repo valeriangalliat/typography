@@ -67,13 +67,24 @@ heading, with the repository/project name.
 The first header may be followed by a small description in a
 `<blockquote>` element (or equivalent). Typically in Markdown:
 
-    > Short description of the repository.
+```md
+> Short description of the repository.
+```
 
 The short description is a sentence, and thus is ended with a period.
 
 When publishing on GitHub, this short description will typically be the
 same as the GitHub repository description. Same for gitweb `description`
 or `gitweb.description` files.
+
+Also if your software has a man page, the short description in the
+`NAME` section (though, the man page short description is not
+capitalized and does not end with a period):
+
+```nroff
+.SH NAME
+command \- short description of the repository
+```
 
 Monospace
 ---------
@@ -117,9 +128,10 @@ Common brand typos
 * Node.js <del>node.js</del> <del>nodejs</del> (can be written Node when
   appropriate),
 * npm <del>NPM</del>,
-* Markdown, <del>markdown</del>,
-* makefile, <del>Makefile</del> (but a makefile is often named
-  `Makefile`).
+* Markdown <del>markdown</del>,
+* makefile <del>Makefile</del> (but a makefile is often named
+  `Makefile`),
+* man page <del>manpage</del>.
 
 When not sure, always look the official website to find the correct
 spelling/capitalization.
