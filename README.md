@@ -85,9 +85,9 @@ When publishing on GitHub, this short description will typically be the
 same as the GitHub repository description. Same for gitweb `description`
 or `gitweb.description` files.
 
-Also if your software has a man page, the short description in the
-`NAME` section (though, the man page short description is not
-capitalized and does not end with a period):
+Also if your software has a [man page](#man-pages), the short
+description in the `NAME` section (though, the man page short
+description is not capitalized and does not end with a period):
 
 ```nroff
 .SH NAME
@@ -179,3 +179,19 @@ spelling/capitalization.
 Though I believe this is only a rule for formal language. IMO, when
 chatting directly with other people, it's tolerable to say just Linux to
 mean GNU/Linux.
+
+Man pages
+---------
+
+See [man-pages(7)](http://man7.org/linux/man-pages/man7/man-pages.7.html)
+for conventions on **how** to write man pages (especially the `STYLE
+GUIDE` section).
+
+When **referring** to man pages from a regular document (like this
+readme), include the man page section number in parentheses after the
+man page name, without space. If it's a link, no special formatting is
+required, but otherwise, write the man page name in bold.
+
+* > Refer to [man-pages(7)](http://man7.org/linux/man-pages/man7/man-pages.7.html).
+
+* > See **zshbuiltins**(1) for more information.
