@@ -107,8 +107,8 @@ same as the GitHub repository description. Same for gitweb `description`
 or `gitweb.description` files.
 
 Also if your software has a [man page](#man-pages), the short
-description in the `NAME` section (though, the man page short
-description is not capitalized and does not end with a period):
+description in the `NAME` section can be the same (though, the man page
+short description is not capitalized and does not end with a period):
 
 ```nroff
 .SH NAME
