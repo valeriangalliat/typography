@@ -198,6 +198,9 @@ in the bold part.
 
 * > **Warning:** don't forget to do this.
 
+This rule only applies when the format used have no better semantic for
+this. For example, in reST, admonitions are suited for this.
+
 Common brand typos
 ------------------
 
