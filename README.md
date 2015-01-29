@@ -159,7 +159,7 @@ command.
 * > This program depends on curl and libnotify (for `notify-send`).
 
   Here, curl is both the "brand" name and command, so we can write it
-  as-is. Though, libnotify is the software name, but `notify-send` is
+  as is. Though, libnotify is the software name, but `notify-send` is
   only a command of libnotify.
 
 * > `pee` and `sponge` from moreutils are awesome commands!
