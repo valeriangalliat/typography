@@ -16,40 +16,40 @@ paragraph (hence, don't capitalize every word).
 Titles are not sentences, and don't end with a period. Though, they can
 end with a question or exclamation mark.
 
-* > ### This is a title
-  >
-  > Here is a regular sentence.
+> ### This is a title
+>
+> Here is a regular sentence.
 
-  Basic case, nothing special.
+Basic case, nothing special.
 
-* > ### How to contribute?
+> ### How to contribute?
 
-  Question as title.
+Question as title.
 
-* > ### moreutils extensions
-  >
-  > moreutils is a collection of Unix commands.
+> ### moreutils extensions
+>
+> moreutils is a collection of Unix commands.
 
-  Title and paragraph beginning with a software name. moreutils is not
-  written capitalized so we don't do it either here.
+Title and paragraph beginning with a software name. moreutils is not
+written capitalized so we don't do it either here.
 
-* > ### Publishing on GitHub
+> ### Publishing on GitHub
 
-  Naturally, we [respect the case](#common-brand-typos) of GitHub name.
+Naturally, we [respect the case](#common-brand-typos) of GitHub name.
 
-* > ### Additions for French developers
+> ### Additions for French developers
 
-  Here, the language/nationality is capitalized in the title, according to
-  English typography rules like for a paragraph.
+Here, the language/nationality is capitalized in the title, according to
+English typography rules like for a paragraph.
 
-* > ### `ls` on steroids
+> ### `ls` on steroids
 
-  [Rules about monospaced font](#monospace) applies.
+[Rules about monospaced font](#monospace) applies.
 
-* > ### Italic/bold
+> ### Italic/bold
 
-  When the  first "word" of a title is a "slash expression", capitalize
-  only the first word if needed.
+When the  first "word" of a title is a "slash expression", capitalize
+only the first word if needed.
 
 Slash
 -----
@@ -60,11 +60,11 @@ a space around the slash.
 When at least one "operand" contains a space, add spaces around the
 slash.
 
-* > Debian is a GNU/Linux distribution.
+> Debian is a GNU/Linux distribution.
 
-* > The language/nationality is capitalized.
+> The language/nationality is capitalized.
 
-* > This is my email address / JID.
+> This is my email address / JID.
 
 See [rule](http://en.wikipedia.org/wiki/Slash_(punctuation)#In_English_text)
 on Wikipedia.
@@ -73,7 +73,7 @@ Italic/bold
 -----------
 
 Use italic when you want to emphasis text in the "reading flow" (the
-expressions are emphased when reading, but not when globally scanning
+expressions are emphasized when reading, but not when globally scanning
 the document).
 
 Use bold when you want some words to stand out from the rest of the
@@ -88,7 +88,7 @@ on Wikipedia.
 Repository readme
 -----------------
 
-[Readme](http://en.wikipedia.org/wiki/README) is a word.
+[Readme](https://en.wiktionary.org/wiki/readme) is a word.
 
 The repository readme (usually `README.md`) must begin with a level 1
 heading, with the repository/project name.
@@ -137,14 +137,28 @@ elemnts:
 
 For example:
 
-* > You can use the `<code>` element to format some code, like
-  > `puts("Hello, world!")`.
+> You can use the `<code>` element to format some code, like
+> `puts("Hello, world!")`.
 
-* > Don't forget to `cd` in a directory first if you don't want to extract
-  > everything in your working directory.
+> Don't forget to `cd` in a directory first if you don't want to extract
+> everything in your working directory.
 
-* > Edit `/etc/ssh/ssh_config` and add `someuser` in the `AllowUsers`
-  > directive.
+> Edit `/etc/ssh/ssh_config` and add `someuser` in the `AllowUsers`
+> directive.
+
+Also use a monospace font (`<kbd>` element if in HTML) for the following
+elements:
+
+* physical keys and button labels,
+* UI labels (menus and such).
+
+> Press <kbd>Fn Lock</kbd> then <kbd>Shift</kbd> + <kbd>F10</kbd>.
+
+> With the camera off, press <kbd>Right</kbd> + <kbd>DISP.</kbd> +
+> <kbd>AF/AE LOCK</kbd> simultaneously.
+
+> For this, you need to open the <kbd>Smart Controls</kbd> panel (e.g.
+> by 32:pressing <kbd>B</kbd>).
 
 ### Commands
 
@@ -156,13 +170,13 @@ In the case the command and the software "brand" name is the same, you
 can ommit the monospaced font when not espacially referring to the
 command.
 
-* > This program depends on curl and libnotify (for `notify-send`).
+> This program depends on curl and libnotify (for `notify-send`).
 
   Here, curl is both the "brand" name and command, so we can write it
   as is. Though, libnotify is the software name, but `notify-send` is
   only a command of libnotify.
 
-* > `pee` and `sponge` from moreutils are awesome commands!
+> `pee` and `sponge` from moreutils are awesome commands!
 
 However, if the program is named after the command, but it's a really
 short or ambiguous command (if it's also an English word for example),
@@ -198,9 +212,9 @@ a colon. The following sentence is not capitalized (the beginning of the
 sentence is the "note", "warning" or other keyword). Include the colon
 in the bold part.
 
-* > **Note:** this is a note.
+> **Note:** this is a note.
 
-* > **Warning:** don't forget to do this.
+> **Warning:** don't forget to do this.
 
 This rule only applies when the format used have no better semantic for
 this. For example, in reST, admonitions are suited for this.
@@ -230,17 +244,17 @@ spelling/capitalization.
 
 ### Unix
 
-* When referring to the Unix OS family, write it "Unix".
+When referring to the Unix OS family, write it "Unix".
 
-  > It's a Unix system! I know this!
+> It's a Unix system! I know this!
 
-  You may emphasis the fact you're speaking of the Unix family by using
-  the term "Unix-like".
+You may emphasis the fact you're speaking of the Unix family by using
+the term "Unix-like".
 
-* When referring to the original AT&T UNIX operating system, write it
-  "UNIX".
+When referring to the original AT&T UNIX operating system, write it
+"UNIX".
 
-  > UNIX was publically released in 1982 with the System III edition.
+> UNIX was publically released in 1982 with the System III edition.
 
 ### Linux
 
@@ -261,9 +275,9 @@ When *referring* to man pages from a regular document (like this
 readme), include the man page section number in parentheses after the
 man page name, without space. Write the man page name in bold.
 
-* > Refer to [**man-pages**(7)].
+> Refer to [**man-pages**(7)].
 
-* > See **zshbuiltins**(1) for more information.
+> See **zshbuiltins**(1) for more information.
 
 [ronn](https://github.com/rtomayko/ronn) is a nice software to write man
 pages in a friendly Markdown format. Though the RubyGems version is
