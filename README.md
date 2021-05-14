@@ -16,37 +16,37 @@ paragraph (hence, don't capitalize every word).
 Titles are not sentences, and don't end with a period. Though, they can
 end with a question or exclamation mark.
 
-> ### This is a title
+> **This is a title**
 >
 > Here is a regular sentence.
 
 Basic case, nothing special.
 
-> ### How to contribute?
+> **How to contribute?**
 
 Question as title.
 
-> ### moreutils extensions
+> **moreutils extensions**
 >
 > moreutils is a collection of Unix commands.
 
 Title and paragraph beginning with a software name. moreutils is not
 written capitalized so we don't do it either here.
 
-> ### Publishing on GitHub
+> **Publishing on GitHub**
 
 Naturally, we [respect the case](#common-brand-typos) of GitHub name.
 
-> ### Additions for French developers
+> **Additions for French developers**
 
 Here, the language/nationality is capitalized in the title, according to
 English typography rules like for a paragraph.
 
-> ### `ls` on steroids
+> **`ls` on steroids**
 
 [Rules about monospaced font](#monospace) applies.
 
-> ### Italic/bold
+> **Italic/bold**
 
 When the  first "word" of a title is a "slash expression", capitalize
 only the first word if needed.
