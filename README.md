@@ -49,6 +49,64 @@ English typography rules like for a paragraph.
 When the  first "word" of a title is a "slash expression", capitalize
 only the first word if needed.
 
+## Quoted titles, text and code
+
+Adapt the style of quoted content to match that of your document. This
+also applies to titles and code.
+
+This rule is inspired by [Scribbr's titles formatting
+rules](https://www.scribbr.com/mla/titles/), in particular the "Are
+titles capitalized in MLA?" part of the FAQ.
+
+> Use MLA capitalization style even when the original source title uses
+> different capitalization.
+
+## Referencing the source of a quote
+
+End the text of a `<blockquote>` with the source when applicable. The
+source needs to start with an em dash.
+
+> This is the content of a quote. It's a beautiful quote!
+>
+> — [Val, "A collection of nice quotes"](https://github.com/valeriangalliat/typography)
+
+In some Markdown parsers (not on GitHub though), you can use `---` for
+this, otherwise use the actual em dash which you can bring up with
+<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> on a Mac keyboard
+layout.
+
+```md
+> --- [Val, "A collection of nice quotes"](https://github.com/valeriangalliat/typography)
+```
+
+Here, I linked the whole reference to the source (not a real source here
+obviously), but feel free to add separate links for the author name and
+source title.
+
+> — [Val](https://val.codejam.info/), ["A collection of nice quotes"](https://github.com/valeriangalliat/typography)
+
+You can add the source date if relevant.
+
+> — [Val](https://val.codejam.info/), ["A collection of nice quotes"](https://github.com/valeriangalliat/typography), May 14, 2021
+
+When quoting a tweet, use the user handle and date of the tweet.
+
+> TIL rsync can hardlink to previous backups with `--link-dest` and you
+> can essentially [recreate macOS Time Machine](https://github.com/cytopia/linux-timemachine/blob/45a03e6aef24d895209c3a588575cac247334918/timemachine#L346)
+> with that. This is just beautiful.
+>
+> — [@valeriangalliat](https://twitter.com/valeriangalliat), [May 13, 2021](https://twitter.com/valeriangalliat/status/1392846380348153860)
+
+I like to link the handle to the user profile and the date to the actual
+tweet.
+
+Note how I monospaced `--link-dest` in my quote to match the style of
+this document (and also Twitter doesn't allow this kind of rich
+text), and instead of dropping the link at the end, I added it to the
+relevant part of the text. There's no hard rule for this, but feel free
+to do this kind of tasteful alterations that doesn't change the meaning
+of the content.
+
 ## Slash
 
 When the "operands" of the "slash operator" are single words, don't add
@@ -281,3 +339,85 @@ See [sassdocify's man page](https://github.com/SassDoc/sassdocify/blob/master/ma
 for a good ronn example.
 
 [**man-pages**(7)]: http://man7.org/linux/man-pages/man7/man-pages.7.html
+
+## Code comments
+
+When commenting your code, you might be using single-line comments or
+multi-line comments. My recommendation for those would be the following:
+
+* A multi-line comment is always one or multiple sentences, and thus
+  should end with a period or other valid punctuation.
+* If a single-line comment is a whole sentence, it should also end with
+  a period, otherwise it follows the same rules as for [titles](#capitalization).
+
+```js
+// This is a sentence where I explain what is going on below.
+console.log('Hello, world!')
+
+// Could this also be a question though?
+console.log(true)
+
+// Before
+doSomething()
+
+// After
+doSomethingElse()
+
+/**
+ * I like to use this kind of multi-line comment in C-like languages
+ * above functions or classes. Note the double star in the beginning. I
+ * don't really use that to mark some kind of automated documentation
+ * string, I just like the style.
+ *
+ * While I'm there, I might as well mention that I use Markdown inside
+ * code comments if I need to, e.g. when referring to other code like
+ * the `doSomethingElse` function which sometimes you can call like
+ * `doSomethingElse(true)` that can make it do even something else.
+ *
+ * When giving multi-line code examples inside a comment, I indent it
+ * with an extra 4 spaces (on top of the one space that's always
+ * following the comment character), which makes it 5 spaces total.
+ *
+ *     let a = foo()
+ *     console.log(a.someProperty)
+ *
+ * Very often when I copy/paste stuff from Stack Overflow, I will add
+ * the link at the end of my comment like this.
+ *
+ * See <https://stackoverflow.com/questions/6044330/ffmpeg-c-what-are-pts-and-dts-what-does-this-code-block-do-in-ffmpeg-c>.
+ */
+function foo () {
+  doSomething()
+
+  // That being said, once I'm inside a function, I'm going to use
+  // single-line comments even if my comment spans on multiple lines and
+  // is a sentence, because I like it better that way, I guess.
+  return doSomethingElse()
+}
+```
+
+In languages that use `#` for comments, for executables that start with
+a shebang, I like to follow it with a comment that explains what the
+script does.
+
+```sh
+#!/bin/sh -e
+#
+# It looks somewhat like this. Do you like it?
+#
+# If I'm feeling extra good that day, I might even include an usage
+# string in that comment. And when it's about usage strings, I like to
+# make them compatible with docopt <http://docopt.org/>, even if I don't
+# use it in the project (just for the style).
+#
+# Usage: mycmd [options] <path>
+#
+# Options:
+#   -h, --help           Show help.
+#   --version            Show version.
+#   -o, --output=<file>  Output to given file [default: -].
+#
+
+path=$1; shift
+echo "$path"
+```
