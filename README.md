@@ -1,10 +1,8 @@
-Typography
-==========
+# Typography
 
 > Typography rules for software documentation.
 
-Capitalization
---------------
+## Capitalization
 
 The first word of a paragraph or title is capitalized, unless it's a
 software, command name, or website (more generally, a "brand" name) that
@@ -51,8 +49,7 @@ English typography rules like for a paragraph.
 When the  first "word" of a title is a "slash expression", capitalize
 only the first word if needed.
 
-Slash
------
+## Slash
 
 When the "operands" of the "slash operator" are single words, don't add
 a space around the slash.
@@ -69,8 +66,7 @@ slash.
 See [rule](http://en.wikipedia.org/wiki/Slash_(punctuation)#In_English_text)
 on Wikipedia.
 
-Italic/bold
------------
+## Italic/bold
 
 Use italic when you want to emphasis text in the "reading flow" (the
 expressions are emphasized when reading, but not when globally scanning
@@ -85,8 +81,7 @@ words.
 See [more](http://en.wikipedia.org/wiki/Emphasis_(typography)#Font_styles_and_variants)
 on Wikipedia.
 
-Repository readme
------------------
+## Repository readme
 
 [Readme](https://en.wiktionary.org/wiki/readme) is a word.
 
@@ -123,8 +118,7 @@ project title, to show the version, code coverage, build status, etc.
 The badges should be added after the title, on the same line. If there
 are many badges, put them below the title.
 
-Monospace
----------
+## Monospace
 
 Write in a monospaced font (`<code>` element if in HTML) the following
 elemnts:
@@ -204,8 +198,7 @@ symbol", like the `$` in shell.
 a variable, and thus must be written in italics, conforming to
 [**man-pages**(7)].
 
-Notes, warnings
----------------
+## Notes, warnings
 
 Notes, warnings or other "annotations" are written in bold, followed by
 a colon. The following sentence is not capitalized (the beginning of the
@@ -219,8 +212,7 @@ in the bold part.
 This rule only applies when the format used have no better semantic for
 this. For example, in reST, admonitions are suited for this.
 
-Common brand typos
-------------------
+## Common brand typos
 
 * GitHub <del>Github</del> <del>github</del>,
 * JavaScript <del>Javascript</del> <del>javascript</del>,
@@ -267,8 +259,7 @@ Though I believe this is only a rule for formal language. IMO, when
 chatting directly with other people, it's tolerable to say just Linux to
 mean GNU/Linux.
 
-Man pages
----------
+## Man pages
 
 See [**man-pages**(7)] for conventions on *how* to write man pages
 (especially the `STYLE GUIDE` section).
