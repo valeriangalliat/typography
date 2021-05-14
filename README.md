@@ -232,6 +232,8 @@ Common brand typos
 * Markdown <del>markdown</del>,
 * makefile <del>Makefile</del> (but a makefile is often named
   `Makefile`),
+* Dockerfile <del>dockerfile</del> (because we write Docker, but we
+  write `make`)
 * man page <del>manpage</del>.
 
 When not sure, always look the official website to find the correct
