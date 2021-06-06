@@ -61,6 +61,25 @@ titles capitalized in MLA?" part of the FAQ.
 > Use MLA capitalization style even when the original source title uses
 > different capitalization.
 
+Only include quotes around the title when it is not a link itself (like
+in the paragraph above), otherwise [the link makes for sufficient emphasis](http://writingspaces.org/wwsg/punctuation-hyperlinks).
+
+If quoting the whole title, capitalize the first word like other titles
+in this style. However sometimes the title itself fits in my quoting
+sentence, and then I like to include it as plain text without
+capitalizing it.
+
+> This blog post is an (up-to-date) mix of [How to install NixOS from Linux][nixos-from-linux]
+> and [Install NixOS on a So you Start dedicated server][nixos-so-you-start] articles.
+
+[nixos-from-linux]: https://nixos.wiki/wiki/NixOS_Installation_Guide#Installing_from_Linux
+[nixos-so-you-start]: http://aborsu.github.io/2015/09/26/Install%20NixOS%20on%20So%20You%20Start%20dedicated%20server/
+
+> If you want to get directly to the heart of the subject, you can jump
+> to [another take on accessible permalinks](#another-take-on-accessible-permalinks).
+>
+> **Another take on accessible permalinks**
+
 ## Referencing the source of a quote
 
 End the text of a `<blockquote>` with the source when applicable. The
@@ -138,6 +157,11 @@ words.
 
 See [more](http://en.wikipedia.org/wiki/Emphasis_(typography)#Font_styles_and_variants)
 on Wikipedia.
+
+When an italic or bold section is followed by punctuation,
+[don't include the punctuation in the emphasis][emphasis-punctuation].
+
+[emphasis-punctuation]: https://www.quora.com/In-a-sentence-ending-with-a-bold-or-italicised-word-does-the-period-need-to-be-bold-italicised-too
 
 ## Repository readme
 
