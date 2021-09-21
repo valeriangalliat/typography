@@ -278,7 +278,7 @@ symbol", like the `$` in shell.
 
 **Note:** in a [man page](#man-pages), an environment variable is, well,
 a variable, and thus must be written in italics, conforming to
-[**man-pages**(7)].
+[`man-pages(7)`].
 
 ## Notes, warnings
 
@@ -343,26 +343,19 @@ mean GNU/Linux.
 
 ## Man pages
 
-See [**man-pages**(7)] for conventions on *how* to write man pages
+See [`man-pages(7)`] for conventions on *how* to write man pages
 (especially the `STYLE GUIDE` section).
 
 When *referring* to man pages from a regular document (like this
 readme), include the man page section number in parentheses after the
-man page name, without space. Write the man page name in bold.
+man page name, without space. Write the whole expression as code (this
+is the style [adopted on Wikipedia](https://en.wikipedia.org/wiki/Man_page)).
 
-> Refer to [**man-pages**(7)].
+> Refer to [`man-pages(7)`].
 
-> See **zshbuiltins**(1) for more information.
+> See `zshbuiltins(1)` for more information.
 
-[ronn](https://github.com/rtomayko/ronn) is a nice software to write man
-pages in a friendly Markdown format. Though the RubyGems version is
-outdated, you have to use the Git version, which respects the "bold man
-page name" convention.
-
-See [sassdocify's man page](https://github.com/SassDoc/sassdocify/blob/master/man/man1/sassdocify.1.ronn)
-for a good ronn example.
-
-[**man-pages**(7)]: http://man7.org/linux/man-pages/man7/man-pages.7.html
+[`man-pages(7)`]: http://man7.org/linux/man-pages/man7/man-pages.7.html
 
 ## Code comments
 
