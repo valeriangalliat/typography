@@ -94,7 +94,7 @@ this, otherwise use the actual em dash which you can bring up with
 <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> on a Mac keyboard
 layout.
 
-```md
+```markdown
 > --- [Val, "A collection of nice quotes"](https://github.com/valeriangalliat/typography)
 ```
 
@@ -173,7 +173,7 @@ heading, with the repository/project name.
 The first header may be followed by a small description in a
 `<blockquote>` element (or equivalent). Typically in Markdown:
 
-```md
+```markdown
 > Short description of the repository.
 ```
 
